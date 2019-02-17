@@ -1,0 +1,156 @@
+@font-face{
+	font-family: letra;
+	src:url(Fortnite.ttf);
+}
+body{
+	font-family: letra;
+	font-size: 30px;
+	color: brown;
+}
+p{
+	vertical-align: text-top;
+}
+#capa{
+    width: 57px;
+   	height: 60px;
+   	position: relative;
+}        
+.malo{
+	width: 192px;
+   	height: 125px;
+   	position: relative;
+   	left:500px;
+   	top: 0px;
+}
+#maloIMG{
+	position: relative;
+	top:-40px;
+	width: 192px;
+   	height: 192px;
+}
+#primeraCapa{
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+	height: 500px;
+	background-image: url("../img/fondo2.jpg");
+}
+
+#paredTop{
+	margin: 0 auto;
+	position: absolute;
+	height: 1px;
+	width: 1000px;
+}
+#paredBot{
+	margin: 0 auto;
+	position: absolute;
+	height: 1px;
+	width: 1000px;
+	top: 500px;
+}
+#paredRight{
+	margin: 0 auto;
+	position: absolute;
+	height: 500px;
+	width: 1px;
+	left: 1000px;
+}
+#paredLeft{
+	margin: 0 auto;
+	position: absolute;
+	height: 500px;
+	width: 1px;
+}
+#contenedorBot{
+	margin: 0 auto;
+	position: relative;
+	height: 40px;
+	width: 1000px;
+}
+#vidas{
+	position: relative;
+	float: left;
+	height: 40px;
+	width: 248px;
+}
+#vida1{
+	position: relative;
+	float: left;
+	top:-35px;
+	left: 70px;
+	width: 50px;
+	height: 50px;
+}
+#vida2{
+	position: relative;
+	float: left;
+	top:-35px;
+	left: 75px;
+	width: 50px;
+	height: 50px;
+}
+#vida3{
+	position: relative;
+	float: left;
+	top:-35px;
+	left: 80px;
+	width: 50px;
+	height: 50px;
+}
+#puntos{
+	position: relative;
+	float: left;
+	height: 40px;
+	width: 248px;
+}
+#puntosX{
+	position: absolute;
+	float: left;
+	left: 100px;
+	top: 0px;
+}
+#nivel{
+	position: relative;
+	float: left;
+	height: 40px;
+	width: 248px;
+}
+#nivelX{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 0px;
+}
+#tiempo{
+	position: relative;
+	float: left;
+	height: 40px;
+	width: 248px;
+}
+#tiempoX{
+	position: absolute;
+	float: left;
+	left:205px;
+	top:0px;
+}
+#mensajeMuerte{
+	position: relative;
+	margin-right: 638px;
+	top:-50px;
+	left:320px;
+	color:white;
+}
+#mensajePasarNivel{
+	/*border:1px solid black;*/
+	position: relative;
+	margin-right: 345px;
+	top:80px;
+	left:170px;
+}
+#mensajeInicio{
+	position: relative;
+	margin-right: 324px;
+	top:-50px;
+	left:160px;
+}

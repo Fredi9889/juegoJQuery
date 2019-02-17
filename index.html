@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<title>THE GAME</title>
+<link rel=StyleSheet href="css/estilo.css" type="text/css" media=screen>
+</head>
+<body>
+	<div id="primeraCapa">
+		<div id="paredTop"></div>
+		<div id="paredBot"></div>
+		<div id="paredRight"></div>
+		<div id="paredLeft"></div>
+		<div id="capa"><img src="img/estaticas/derecha.png"></div>
+		<div class="malo"><img id="maloIMG"src="img/malo.gif"></div>
+		<div id="mensajeMuerte">
+			<h3>Has sido abatido</h3>
+		</div>
+		<div id="mensajePasarNivel">
+			<h1>Enhorabuena, pasaste de nivel</h1>
+		</div>
+		<div id="mensajeInicio">
+			<h1>Pulsa Enter para iniciar el juego</h1>
+		</div>
+	</div>
+	<div id="contenedorBot">
+		<div id="vidas">
+			<div>Vidas:</div> <img id="vida1"src="img/corazon.gif"><img id="vida2"src="img/corazon.gif"><img id="vida3"src="img/corazon.gif">
+		</div>
+		<div id="puntos">
+			Puntos:<div id="puntosX"></div><!--<div id="puntosX"></div>-->
+		</div>
+		<div id="nivel">
+			Nivel:<div id="nivelX"></div>
+		</div>
+		<div id="tiempo">
+			Tiempo del nivel:<div id="tiempoX"></div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/codigo.js"></script>
+</body>
+</html>
